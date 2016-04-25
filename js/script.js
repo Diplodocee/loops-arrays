@@ -3,7 +3,7 @@ var count = 1;
 var list = '';
 
 while (count < 11) {
-  list += '<li>current count is: ' + count + '</li>';
+  setTimeout(function() {list += '<li>current count is: ' + count + '</li>'},1250);
   count += 1;
 }
 
